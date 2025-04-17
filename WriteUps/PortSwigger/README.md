@@ -1,9 +1,5 @@
 # 0x00 :: PortSwigger Web Security Academy — Progress Log
 
-> Practical mastery tracker for all modules of the Web Security Academy.  
-> All entries backed by screenshots. No theory — only exploits.  
-> Format: 1 module = 1 screenshot (stored in this directory)
-
 ---
 
 ## 0x01 :: Progress Summary
@@ -69,4 +65,4 @@ Requirements (Practitioner level labs and up):
 ```
 ---
 
-## 0xFF :: In progres
+## 0xFF :: In progress...
