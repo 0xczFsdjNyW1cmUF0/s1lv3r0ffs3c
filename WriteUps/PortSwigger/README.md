@@ -1,8 +1,3 @@
-Вот обновлённый `README.md`, где заголовок начинается с `0x00` — строго, чётко, по-хакерски:
-
----
-
-```markdown
 # 0x00 :: PortSwigger Web Security Academy — Progress Log
 
 > Practical mastery tracker for all modules of the Web Security Academy.  
@@ -49,8 +44,8 @@ Requirements (Practitioner level labs and up):
 
 | Module                 | Status       | Screenshot File              |
 |------------------------|--------------|------------------------------|
-| SQL Injection          | 38 / 51      | `sqli-wip.png`               |
-| File Upload            | 16 / 35      | `file-upload-wip.png`        |
+| SQL Injection          | 38 / 51      | `sqli-progress.png`               |
+| File Upload            | 16 / 35      | `file-upload-progress.png`        |
 
 ---
 
