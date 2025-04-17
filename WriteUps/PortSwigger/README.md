@@ -42,13 +42,13 @@ Requirements (Practitioner level labs and up):
 |------------------------|--------------|------------------------------|
 | SQL Injection          | 38 / 51      | ![Screenshot](./sqli-progress.png)               |
 | File Upload            | 16 / 35      | ![Screenshot](./file-upload-progress.png)        |
+| API Testing            | 4 / 29       | ![Screenshot](./api-progress.png)        |
 
 ---
 
 ## 0x05 :: Pending Modules
 
 ```
-[0%]  API testing
 [0%]  Web LLM attacks
 [0%]  CSRF
 [0%]  Clickjacking
