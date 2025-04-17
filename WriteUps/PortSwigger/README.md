@@ -64,4 +64,4 @@ Requirements (Practitioner level labs and up):
 ```
 ---
 
-## 0xFF :: In progress...
+## 0xFF :: Get Certified?
