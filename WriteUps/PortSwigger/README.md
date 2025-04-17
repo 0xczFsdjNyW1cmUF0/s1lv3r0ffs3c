@@ -36,7 +36,7 @@ Requirements (Practitioner level labs and up):
 
 | Module                     | Status       | Screenshot File              |
 |----------------------------|--------------|------------------------------|
-| Server-side vulnerabilities| 52 / 52 DONE | `server-side-full.png`       |
+| Server-side vulnerabilities| 52 / 52 DONE | `./server-side-full.png`       |
 
 ---
 
@@ -44,8 +44,8 @@ Requirements (Practitioner level labs and up):
 
 | Module                 | Status       | Screenshot File              |
 |------------------------|--------------|------------------------------|
-| SQL Injection          | 38 / 51      | `sqli-progress.png`               |
-| File Upload            | 16 / 35      | `file-upload-progress.png`        |
+| SQL Injection          | 38 / 51      | `./sqli-progress.png`               |
+| File Upload            | 16 / 35      | `./file-upload-progress.png`        |
 
 ---
 
