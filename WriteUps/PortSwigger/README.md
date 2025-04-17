@@ -7,7 +7,7 @@
 | Category                | Value             |
 |-------------------------|-------------------|
 | Current Level           | NEWBIE            |
-| Labs to Apprentice      | 40                |
+| Labs to Apprentice      | 39                |
 | Labs Completed (Appr.)  | 20 / 59           |
 | Labs Completed (Pract.) | 16 / 171          |
 | Labs Completed (Expert) | 0 / 39            |
