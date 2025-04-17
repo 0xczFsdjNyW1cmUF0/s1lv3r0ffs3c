@@ -9,7 +9,7 @@
 | Current Level           | NEWBIE            |
 | Labs to Apprentice      | 40                |
 | Labs Completed (Appr.)  | 19 / 59           |
-| Labs Completed (Pract.) | 12 / 171          |
+| Labs Completed (Pract.) | 16 / 171          |
 | Labs Completed (Expert) | 0 / 39            |
 
 ---
@@ -22,7 +22,7 @@ Requirements (Practitioner level labs and up):
 | Segment                  | Progress       |
 |--------------------------|----------------|
 | Labs from all topics     | 4 / 23          |
-| Specific labs            | 1 / 8           |
+| Specific labs            | 3 / 8           |
 | Mystery labs             | 0 / 5           |
 | Practice exam            | 0 / 1           |
 
@@ -33,14 +33,13 @@ Requirements (Practitioner level labs and up):
 | Module                     | Status       | Screenshot File              |
 |----------------------------|--------------|------------------------------|
 | Server-side vulnerabilities| 52 / 52 DONE | ![Screenshot](./server-side-full.png)       |
-
+| SQL Injection          | 51 / 51 DONE     | ![Screenshot](./sqli.png)               |
 ---
 
 ## 0x04 :: In Progress
 
 | Module                 | Status       | Screenshot File              |
 |------------------------|--------------|------------------------------|
-| SQL Injection          | 38 / 51      | ![Screenshot](./sqli-progress.png)               |
 | File Upload            | 16 / 35      | ![Screenshot](./file-upload-progress.png)        |
 | API Testing            | 4 / 29       | ![Screenshot](./api-progress.png)        |
 
