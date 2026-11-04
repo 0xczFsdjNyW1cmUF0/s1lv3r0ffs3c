@@ -8,4 +8,15 @@
 - `ssti.md` — определение движка шаблонов и типовые пейлоады.
 - `web-checklist.md` — базовый чеклист для веб-точки.
 
+## scripts/ — боевые скрипты одной командой
+
+- `revshell.sh` — генератор реверс-шеллов (bash/sh/python/php/powershell/nc/mkfifo/java)
+- `tty.sh` — апгрейд кривого шелла в полноценный
+- `lin-quick.sh` — разведка Linux после шелла: sudo, SUID, capabilities, креды в конфигах, cron, docker
+- `win-quick.ps1` — разведка Windows: privs, уязвимые сервисы, альтернативные креды
+- `ad-attack.sh` — обвязка kerbrute/impacket: userenum → ASREPRoast → spray → dcsync
+- `webshell.py` — генерит php/aspx шелл, управляемый через заголовок `X-CMD` (не палится в логах GET-параметрами)
+- `ferox-wrap.py` — брутфорс директорий с автоматическим углублением в найденное
+- `pspy-local.py` — ловит cron/запуски от рута без root-прав (аналог pspy)
+
 Правило простое: сюда попадает только то, что сам проверял руками. Не завалено — пополняется по мере прохождения лаб.
