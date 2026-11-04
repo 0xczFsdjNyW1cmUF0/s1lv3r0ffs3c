@@ -21,3 +21,11 @@
 - [ret2libc](./ret2libc.md) — первая ROP-цепочка: `pop rdi; ret`, system("/bin/sh")
 - [Olympus](./olympus.md) — SQLi в старом CMS, SUID-бинарник, который сам приходит за пейлоадом
 - [NoScope: Finding RCE](./noscope-rce.md) — обход песочницы Rhino через `returnClass`, эксфильтрация через лог расширения
+- [Attacktive Directory](./attacktive-directory.md) — kerbrute → ASREPRoast → DCSync → pass-the-hash
+- [AD Certificate Templates](./ad-cert-templates.md) — ESC1: токсичный шаблон, сертификат живёт дольше пароля
+- [PrintNightmare](./printnightmare.md) — CVE-2021-1675: DLL через Print Spooler, детект и митигейшн
+- [LocalPotato](./localpotato.md) — CVE-2023-21746: своп NTLM-контекстов + StorSvc DLL-hijack
+- [Breaking RSA](./breaking-rsa.md) — факторизация Ферма против близких простых
+- [W1seGuy](./w1seguy.md) — known plaintext против XOR с коротким ключом
+- [Insecure Deserialisation](./insecure-deserialisation.md) — pickle `__reduce__`, PHP magic methods, POP chains
+- [The Hollow Shell](./the-hollow-shell.md) — zip-slip + отравленный Jinja-кеш (Hacker Holidays 2026)
