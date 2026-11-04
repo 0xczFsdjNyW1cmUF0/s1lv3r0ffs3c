@@ -91,8 +91,8 @@ A = Apprentice, P = Practitioner, E = Expert. Формат «решено/все
 || Server-side vulnerabilities| 52 / 52 DONE | ![Screenshot](./server-side.png)       |
 || SQL Injection          | 51 / 51 DONE     | ![Screenshot](./sqli.png)               |
 || File Upload            | 35 / 35 DONE     | ![Screenshot](./file-upload.png)        |
-|| API Testing            | 1 / 4 лабы       | ![Screenshot](./api-progress.png)        |
-|| WEB LLM attacks        | 4 / 5 лаб        | ![Screenshot](./web-llm-progress.png)        |
+|| API Testing            | 1 / 5 лаб        | ![Screenshot](./api-progress.png)        |
+|| WEB LLM attacks        | 4 / 8 лаб        | ![Screenshot](./web-llm-progress.png)        |
 
 ---
 
