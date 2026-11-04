@@ -66,3 +66,19 @@ Requirements (Practitioner level labs and up):
 ---
 
 ## 0xFF :: Get Certified?
+
+Цель — BSCP (Burp Suite Certified Practitioner). Сейчас до него как до луны, но план есть.
+
+Что мешает:
+- Practitioner-лабы почти не тронуты (20/171)
+- Mystery labs — 0/5, это по сути симуляция экзамена
+- Practice exam не пробовал вообще
+
+Очередь: добить API testing и WEB LLM → CSRF / Auth / SSRF (база для экзамена) → потом уже скучное вроде CORS и clickjacking. Экзамен брать не раньше, чем practitioner-лабы начнут идти на одном дыхании — иначе просто спалить деньги.
+
+Промежуточные бейджи по пути: скрины профилей TryHackMe / HTB лягут в `Certs/`, как только руки дойдут.
+
+## 0x100 :: Lab Notes
+
+Разборы отдельных лаб, где был неочевидный ход или где ловился сам — в `labs/`.
+
