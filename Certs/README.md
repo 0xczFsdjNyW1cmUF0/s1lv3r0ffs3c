@@ -5,9 +5,11 @@
 
 ## Содержание
 
-- `education.md` — вся пройденная ИБ-школа одной таблицей + CTF.
+- `education.md` — вся пройденная ИБ-школа одной таблицей + CTF, со ссылками на дипломы.
 - **Stepik** — `Stepik/`
 - **Yandex** — `Yandex/`
+- **CyberYozh** — `CyberYozh/` (CTF)
+- **AcademyIT** — `AcademyIT/`
 - **TryHackMe** — `TryHackMe/`
 
 Дальше пополняется по мере прохождения. В планах — экзамен PortSwigger (BSCP), но до него ещё идти и идти, так что появится не скоро.
