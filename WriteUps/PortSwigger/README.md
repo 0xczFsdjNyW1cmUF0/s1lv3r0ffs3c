@@ -4,27 +4,29 @@
 
 ## 0x01 :: Progress Summary
 
-| Category                | Value             |
-|-------------------------|-------------------|
-| Current Level           | NEWBIE            |
-| Labs to Apprentice      | 39                |
-| Labs Completed (Appr.)  | 20 / 59           |
-| Labs Completed (Pract.) | 20 / 171          |
-| Labs Completed (Expert) | 0 / 39            |
+Обновлено 2026-11-04 по дашборду академии: ![Dashboard](./dashboard.png)
+
+| Category                | Value                        |
+|-------------------------|------------------------------|
+| Current Level           | APPRENTICE (до Practitioner ещё 110 лаб) |
+| Labs Completed (Appr.)  | 61 / 61 — закрыт полностью   |
+| Labs Completed (Pract.) | 63 / 173                     |
+| Labs Completed (Expert) | 5 / 39                       |
+| Vulnerability labs      | 47%                          |
 
 ---
 
 ## 0x02 :: Certification Status
 
-Exam Readiness: **NOT READY**  
+Exam Readiness: **NOT READY** — до экзамена остались только mystery labs и пробный.  
 Requirements (Practitioner level labs and up):
 
 | Segment                  | Progress       |
 |--------------------------|----------------|
-| Labs from all topics     | 5 / 23          |
-| Specific labs            | 3 / 8           |
-| Mystery labs             | 0 / 5           |
-| Practice exam            | 0 / 1           |
+| Labs from all topics     | 23 / 23 — DONE |
+| Specific labs            | 8 / 8 — DONE   |
+| Mystery labs             | 2 / 5          |
+| Practice exam            | 0 / 1          |
 
 ---
 
@@ -67,14 +69,13 @@ Requirements (Practitioner level labs and up):
 
 ## 0xFF :: Get Certified?
 
-Цель — BSCP (Burp Suite Certified Practitioner). Сейчас до него как до луны, но план есть.
+Цель — BSCP (Burp Suite Certified Practitioner). Уже не как до луны: экзаменационные требования по обычным лабам закрыты, осталось добить симуляцию самого экзамена.
 
 Что мешает:
-- Practitioner-лабы почти не тронуты (20/171)
-- Mystery labs — 0/5, это по сути симуляция экзамена
+- Mystery labs — 2/5, это по сути симуляция экзамена
 - Practice exam не пробовал вообще
 
-Очередь: добить API testing и WEB LLM → CSRF / Auth / SSRF (база для экзамена) → потом уже скучное вроде CORS и clickjacking. Экзамен брать не раньше, чем practitioner-лабы начнут идти на одном дыхании — иначе просто спалить деньги.
+Очередь: mystery labs → practice exam → записываться на BSCP. Practitioner-лабы параллельно копаются сами по мере прохождения тем (сейчас 63/173).
 
 Промежуточные бейджи по пути: скрины профилей TryHackMe / HTB лягут в `Certs/`, как только руки дойдут.
 
