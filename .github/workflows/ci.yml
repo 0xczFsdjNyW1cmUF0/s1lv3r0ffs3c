@@ -1,0 +1,22 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: shellcheck
+        run: shellcheck --severity=warning Stuff/scripts/*.sh
+
+      - name: py_compile
+        run: python3 -m py_compile Stuff/scripts/*.py
+
+      - name: markdown links (relative)
+        run: python3 .github/scripts/check_links.py

