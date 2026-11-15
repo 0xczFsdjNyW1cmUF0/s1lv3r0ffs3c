@@ -22,7 +22,7 @@
 
 **WriteUps / PortSwigger** — [2fa-bruteforce-macro](./WriteUps/PortSwigger/labs/2fa-bruteforce-macro.md) · [file-upload-race-condition](./WriteUps/PortSwigger/labs/file-upload-race-condition.md) · [file-upload-rce](./WriteUps/PortSwigger/labs/file-upload-rce.md) · [partial-construction-race](./WriteUps/PortSwigger/labs/partial-construction-race.md) · [sqli-hidden-data](./WriteUps/PortSwigger/labs/sqli-hidden-data.md) · [sqli-login-bypass](./WriteUps/PortSwigger/labs/sqli-login-bypass.md) · [ssrf-blind-shellshock](./WriteUps/PortSwigger/labs/ssrf-blind-shellshock.md) · [ssrf-whitelist-bypass](./WriteUps/PortSwigger/labs/ssrf-whitelist-bypass.md)
 
-**Certs** — [всё обучение](./Certs/education.md) · [комнаты THM](./Certs/TryHackMe/rooms.md) · **CTF** — [сезоны ACLabs](./CTF/README.md)
+**Certs** — [всё обучение](./Certs/education.md) · [комнаты THM](./Certs/TryHackMe/rooms.md) · [roadmap](./Certs/roadmap.md) · **CTF** — [сезоны ACLabs](./CTF/README.md)
 
 Минимум слов, максимум полезного контента. Хочешь обсудить или поделиться идеями — открой issue!
 

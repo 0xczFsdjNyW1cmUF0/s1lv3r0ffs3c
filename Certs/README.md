@@ -5,6 +5,7 @@
 ## Содержание
 
 - [`education.md`](./education.md) — вся пройденная ИБ-школа за 3 года одной таблицей + CTF
+- [`roadmap.md`](./roadmap.md) — план по сертификациям: что осталось до BSCP и в каком порядке
 - [`TryHackMe/`](./TryHackMe) — дамп профиля (329 комнат, 32 бейджа), скрин статистики, список комнат
 - [`Stepik/`](./Stepik) — Белый Хакер, Противодействие кибератакам, Правовые основы (ДВФУ)
 - [`Yandex/`](./Yandex) — веб-пентест (расширенный), 7 месяцев
@@ -17,4 +18,4 @@
 
 ## Что дальше
 
-Ближайшая цель — BSCP (Burp Suite Certified): обычные лабы закрыты, остались mystery labs и пробный экзамен. Прогресс живёт в [`WriteUps/PortSwigger`](../WriteUps/PortSwigger/README.md).
+План по сертификациям собран в [`roadmap.md`](./roadmap.md). Живые цифры по лабам — в [`WriteUps/PortSwigger`](../WriteUps/PortSwigger/README.md).
