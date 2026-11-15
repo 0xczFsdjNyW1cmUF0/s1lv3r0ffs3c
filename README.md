@@ -8,11 +8,11 @@
 Не для понтов, а для практического применения. Если это кому то окажется полезным — отлично, если нет — тоже не беда.
 
 ### Структура репозитория:
-- **CTF**: Скриншоты решённых задач и мелкие заметки. Просто на память о том, как закалялась сталь.
+- **CTF**: Сезоны ACLabs, разборы тасков и каталог публичных writeups. Просто на память о том, как закалялась сталь.
 - **Certs**: Дипломы, сертификаты, завершенные курсы. Исключительно по теме, ничего лишнего.
 - **Stuff**: Полезные материалы, скрипты и пейлоады, ссылки на ресурсы. Всегда под рукой.
 - **WriteUps**: Краткие отчёты по задачам и уязвимостям, просто чтобы не забыть.
-- **_templates**: Шаблоны заметок, чтобы writeup'ы выходили в одном формате.
+- **[_templates](_templates/writeup.md)**: Шаблоны заметок, чтобы writeup'ы выходили в одном формате.
 
 ### Карта заметок
 
@@ -22,7 +22,7 @@
 
 **WriteUps / PortSwigger** — [2fa-bruteforce-macro](./WriteUps/PortSwigger/labs/2fa-bruteforce-macro.md) · [file-upload-race-condition](./WriteUps/PortSwigger/labs/file-upload-race-condition.md) · [file-upload-rce](./WriteUps/PortSwigger/labs/file-upload-rce.md) · [partial-construction-race](./WriteUps/PortSwigger/labs/partial-construction-race.md) · [sqli-hidden-data](./WriteUps/PortSwigger/labs/sqli-hidden-data.md) · [sqli-login-bypass](./WriteUps/PortSwigger/labs/sqli-login-bypass.md) · [ssrf-blind-shellshock](./WriteUps/PortSwigger/labs/ssrf-blind-shellshock.md) · [ssrf-whitelist-bypass](./WriteUps/PortSwigger/labs/ssrf-whitelist-bypass.md)
 
-**Certs** — [всё обучение](./Certs/education.md) · [комнаты THM](./Certs/TryHackMe/rooms.md) · **CTF** — [сезоны ACLabs](./CTF/README.md)
+**Certs** — [всё обучение](./Certs/education.md) · [комнаты THM](./Certs/TryHackMe/rooms.md) · [roadmap](./Certs/roadmap.md) · **CTF** — [сезоны ACLabs](./CTF/README.md) · [таски](./CTF/tasks/) · [readings](./CTF/readings.md)
 
 Минимум слов, максимум полезного контента. Хочешь обсудить или поделиться идеями — открой issue!
 

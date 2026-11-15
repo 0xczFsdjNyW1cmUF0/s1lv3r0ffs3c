@@ -21,6 +21,8 @@ command -v getcap >/dev/null && getcap -r / 2>/dev/null | grep -vE 'none' | head
 
 H "КРЕДЫ В ФАЙЛАХ"
 grep -rliE 'pass(word)?|secret|token' /etc /opt /home /var/www 2>/dev/null | head -20
+# нужен список с правами и именами, find тут не то
+# shellcheck disable=SC2010
 ls -la ~ 2>/dev/null | grep -E 'history|ssh|aws|kube'
 
 H "CRON"

