@@ -11,7 +11,7 @@
 | Active Scan++ | расширение встроенного сканера: кеш, DNS, каверзные заголовки |
 | Collaborator Everywhere | OOB-коллбеки пассивно на весь трафик — ловит то, что руками забудешь проверить |
 
-Collaborator для точечных проверок встроен в Burp Pro; в Community выручает [interactsh](https://github.com/projectdiscovery/interactsh) из консоли.
+Collaborator для точечных проверок встроен в Burp Pro; в Community остаётся [interactsh](https://github.com/projectdiscovery/interactsh) из консоли.
 
 ## Словари
 

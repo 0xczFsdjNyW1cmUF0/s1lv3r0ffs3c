@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # docker-escape.sh — разведка контейнера после шелла: контейнер ли это вообще
-# и какие двери наружу не закрыты. То же работает на lxc и в подах k8s.
+# и какие двери наружу не закрыты. В lxc и подах k8s то же самое.
 # Запускать: bash docker-escape.sh | tee enum.txt
 set -u
 
@@ -41,7 +41,7 @@ fdisk -l 2>/dev/null | grep '^Disk /' | head -5
 
 H "K8S SERVICEACCOUNT"
 SA=/var/run/secrets/kubernetes.io/serviceaccount
-[ -d "$SA" ] && echo "!! токен на месте: namespace $(cat "$SA/namespace" 2>/dev/null) — с ним kubectl от этого аккаунта"
+[ -d "$SA" ] && echo "!! токен на месте: namespace $(cat "$SA/namespace" 2>/dev/null) — дальше kubectl с этим токеном"
 
 H "ENV"
 env 2>/dev/null | grep -iE 'docker|kube|token|secret|pass|key' | head -10
