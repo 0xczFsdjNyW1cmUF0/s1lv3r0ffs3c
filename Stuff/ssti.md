@@ -59,3 +59,7 @@ ${"freemarker.template.utility.Execute"?new()("id")}
 - Отражается ли ввод именно в шаблоне. Простое отражение в HTML — это XSS, а не SSTI.
 - Есть ли sandbox (SandboxedEnvironment у Jinja закрывает большинство цепочек через `__globals__`).
 - Что уже лежит в контексте: `{{cycler}}`, `{{request}}`, `{{url_for}}` — от этого зависит, с чего начинать цепочку.
+
+## В разборах
+
+- [The Hollow Shell](../WriteUps/THM/the-hollow-shell.md) — zip-slip в кеш шаблонов и та же Jinja-цепочка через `self.__init__` на реальной машине.

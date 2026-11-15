@@ -22,3 +22,8 @@
 
 - В одной лабе резали `.php` вообще в любом месте имени. Помог `.phtml` — тот же интерпретатор, который в чёрный список не внесли.
 - htaccess-костыль не завёлся, когда заливка была под nginx + php-fpm — там `.htaccess` просто не читается. Час убил, прежде чем дошло.
+
+## В разборах
+
+- [file-upload-rce](../WriteUps/PortSwigger/labs/file-upload-rce.md) — обход по одному Content-Type.
+- [file-upload-race-condition](../WriteUps/PortSwigger/labs/file-upload-race-condition.md) — TOCTOU между записью и удалением файла.
