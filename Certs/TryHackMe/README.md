@@ -1,10 +1,10 @@
 # TryHackMe
 
-[tryhackme.com/p/s1lv3rBSD](https://tryhackme.com/p/s1lv3rBSD) — с января 2025, чисто за фан.
+[tryhackme.com/p/s1lv3rBSD](https://tryhackme.com/p/s1lv3rBSD) — занимаюсь с января 2025, для себя.
 
 ## Снимок профиля
 
-Дамп снят 2026-11-04, чтобы цифры не уезжали в никуда.
+Статистика сохранена 2026-11-04. Это снимок профиля, а не текущие показатели.
 
 | Показатель | Значение |
 |---|---|
@@ -18,7 +18,7 @@
 | Capability Score | 73.6 (POV: red) |
 | План | premium |
 
-По комнатам: 218 easy, 80 medium, 25 info, 6 hard. Из них 70 challenge-ов — остальное walkthrough.
+По комнатам: 218 easy, 80 medium, 25 info, 6 hard. Из них 70 — challenge-комнаты для самостоятельного решения, остальные — walkthrough с пошаговыми заданиями.
 
 ## Бейджи
 

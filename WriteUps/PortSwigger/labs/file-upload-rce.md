@@ -1,14 +1,14 @@
-# PortSwigger: web-shell через загрузку
+# PortSwigger: веб-шелл через загрузку файла
 
-**Лаба:** Remote code execution via web shell upload
+**Лаба:** [Web shell upload via Content-Type restriction bypass](https://portswigger.net/web-security/file-upload/lab-file-upload-web-shell-upload-via-content-type-restriction-bypass)
 
 ## Суть
 
-В профиле можно менять аватарку, валидация только по Content-Type заголовку. Расширение и содержимое никто не смотрит.
+В профиле можно менять аватар. Проверяется только заявленный тип файла в заголовке Content-Type; расширение и содержимое не проверяются.
 
 ## Решение
 
-1. Сохранил шелл `exploit.php`:
+1. Сохранил PHP-скрипт `exploit.php`:
 
 ```php
 <?php echo file_get_contents('/home/carlos/secret'); ?>
@@ -19,6 +19,8 @@
 
 ## Заметка
 
-Путь `/files/avatars/` угадал по подсказке из ответа сервера, но на всякий случай прогнал dirsearch по `/files/`. Ничего лишнего не нашлось, а вот привычка полезная: после удачной заливки всегда смотреть, что ещё торчит в том же каталоге.
+Путь `/files/avatars/` определил по ответу сервера. На всякий случай проверил `/files/` через dirsearch, но дополнительных файлов не нашёл.
 
-Полный набор обходов фильтров — в шпаргалке [file-upload](../../../Stuff/file-upload.md).
+Эта заметка описывает обход проверки Content-Type. У лабораторной Remote code execution via web shell upload проверок загружаемого файла нет.
+
+Другие обходы фильтров — в шпаргалке [file-upload](../../../Stuff/file-upload.md).

@@ -1,36 +1,37 @@
-# 0x00 :: PortSwigger Web Security Academy — Progress Log
+# PortSwigger Web Security Academy
 
 ---
 
-## 0x01 :: Progress Summary
+## Общий прогресс
 
-Обновлено 2026-11-05 по live-списку всех лаб (273 шт., сверено с дашбордом): ![Dashboard](./dashboard.png)
+Обновлено 2026-11-05 по актуальному списку всех лабораторных работ (273 шт., сверено с дашбордом): ![Dashboard](./dashboard.png)
 
-|| Category                | Value                        |
-||-------------------------|------------------------------|
-|| Current Level           | APPRENTICE (до Practitioner ещё 110 лаб) |
-|| Labs Completed (Appr.)  | 61 / 61 — закрыт полностью   |
-|| Labs Completed (Pract.) | 63 / 173                     |
-|| Labs Completed (Expert) | 5 / 39                       |
-|| Vulnerability labs      | 47%                          |
-
----
-
-## 0x02 :: Certification Status
-
-Exam Readiness: **NOT READY** — до экзамена остались только mystery labs и пробный.  
-Requirements (Practitioner level labs and up):
-
-|| Segment                  | Progress       |
-||--------------------------|----------------|
-|| Labs from all topics     | 23 / 23 — DONE |
-|| Specific labs            | 8 / 8 — DONE   |
-|| Mystery labs             | 2 / 5          |
-|| Practice exam            | 0 / 1          |
+| Показатель              | Значение                        |
+|-------------------------|------------------------------|
+| Текущий уровень         | APPRENTICE (до Practitioner ещё 110 лабораторных) |
+| Решено (Apprentice)  | 61 / 61 — закрыт полностью   |
+| Решено (Practitioner) | 63 / 173                     |
+| Решено (Expert) | 5 / 39                       |
+| Прогресс лабораторных      | 47%                          |
 
 ---
 
-## 0x03 :: Progress по темам
+## Подготовка к сертификации
+
+К экзамену пока не готов: по моему плану остались Mystery labs и пробный экзамен.
+
+Список подготовки (лабораторные уровня Practitioner и выше):
+
+| Пункт                    | Прогресс       |
+|--------------------------|----------------|
+| Лабораторные по всем темам     | 23 / 23 — выполнено |
+| Выбранные лабораторные            | 8 / 8 — выполнено   |
+| Mystery labs             | 2 / 5          |
+| Practice exam            | 0 / 1          |
+
+---
+
+## Прогресс по темам
 
 A = Apprentice, P = Practitioner, E = Expert. Формат «решено/всего».
 
@@ -68,50 +69,50 @@ A = Apprentice, P = Practitioner, E = Expert. Формат «решено/все
 | XML external entity (XXE) injection | 2/2 | 1/6 | 0/1 |
 | Essential skills (learning path) | — | 1/2 | — |
 
-Закрытые темы целиком (все тиры): **SQL injection**, **Path traversal**, **File upload**, **Access control**, **CORS**, **Information disclosure**, **Race conditions**, **SSRF**.
+По таблице выше полностью пройдены SQL injection, Path traversal, File upload, CORS и Information disclosure. В Access control, Race conditions и SSRF ещё остались лабораторные уровня Practitioner.
 
 ---
 
-## 0x04 :: Expert labs — разборы
+## Разборы лабораторных уровня Expert
 
 Все 5 пройденных экспертных лаб разобраны в [`labs/`](./labs/):
 
-- [Blind SSRF with Shellshock exploitation](./labs/ssrf-blind-shellshock.md) — эксфильтрация имени юзера через DNS
-- [SSRF with whitelist-based input filter](./labs/ssrf-whitelist-bypass.md) — рассинхрон двух URL-парсеров через `%2523`
-- [2FA bypass using a brute-force attack](./labs/2fa-bruteforce-macro.md) — макрос против logout-защиты
+- [Blind SSRF with Shellshock exploitation](./labs/ssrf-blind-shellshock.md) — эксфильтрация имени пользователя через DNS
+- [SSRF with whitelist-based input filter](./labs/ssrf-whitelist-bypass.md) — различия в разборе URL с `%2523`
+- [2FA bypass using a brute-force attack](./labs/2fa-bruteforce-macro.md) — макрос для повторного входа после завершения сессии
 - [Web shell upload via race condition](./labs/file-upload-race-condition.md) — TOCTOU между записью и удалением
 - [Partial construction race conditions](./labs/partial-construction-race.md) — регистрация с null-токеном
 
 ---
 
-## 0x05 :: Learning paths
+## Учебные модули
 
-|| Module                     | Status       | Screenshot File              |
-||----------------------------|--------------|------------------------------|
-|| Server-side vulnerabilities| 52 / 52 DONE | ![Screenshot](./server-side.png)       |
-|| SQL Injection          | 51 / 51 DONE     | ![Screenshot](./sqli.png)               |
-|| File Upload            | 35 / 35 DONE     | ![Screenshot](./file-upload.png)        |
-|| API Testing            | 1 / 5 лаб        | ![Screenshot](./api-progress.png)        |
-|| WEB LLM attacks        | 4 / 8 лаб        | ![Screenshot](./web-llm-progress.png)        |
+| Модуль                     | Прогресс     | Скриншот              |
+|----------------------------|--------------|------------------------------|
+| Server-side vulnerabilities| 52 / 52 — выполнено | ![Screenshot](./server-side.png)       |
+| SQL Injection          | 51 / 51 — выполнено     | ![Screenshot](./sqli.png)               |
+| File Upload            | 35 / 35 — выполнено     | ![Screenshot](./file-upload.png)        |
+| API Testing            | 1 / 5 лаб        | ![Screenshot](./api-progress.png)        |
+| WEB LLM attacks        | 4 / 8 лаб        | ![Screenshot](./web-llm-progress.png)        |
 
 ---
 
-## 0xFF :: Get Certified?
+## План подготовки к BSCP
 
-Цель — BSCP (Burp Suite Certified Practitioner). Уже не как до луны: экзаменационные требования по обычным лабам закрыты, осталось добить симуляцию самого экзамена.
+Цель — BSCP (Burp Suite Certified Practitioner). В моём списке подготовки отмечены лабораторные по всем темам и выбранные задания. Следующий шаг — практика без подсказки о типе уязвимости и пробный экзамен.
 
 Что мешает:
-- Mystery labs — 2/5, это по сути симуляция экзамена
-- Practice exam не пробовал вообще
+- Mystery labs — 2/5: задачи без заранее указанного типа уязвимости
+- Practice exam ещё не пробовал
 
-Очередь: mystery labs → practice exam → записываться на BSCP. Practitioner-лабы параллельно копаются сами по мере прохождения тем (сейчас 63/173). Ближайшие кучки по темам: CSRF (1/10), XSS (2/16), HTTP request smuggling (2/15), web cache poisoning (1/9), prototype pollution (0/9).
+Порядок: mystery labs → practice exam → запись на BSCP. Параллельно решаю лабораторные уровня Practitioner по мере прохождения тем (сейчас 63/173). Ближайшие темы: CSRF (1/10), XSS (2/16), HTTP request smuggling (2/15), web cache poisoning (1/9), prototype pollution (0/9).
 
-Промежуточные бейджи по пути: скрины профилей TryHackMe лягут в `Certs/`, как только руки дойдут.
+Статистика и бейджи TryHackMe собраны в разделе [Certs](../../Certs/TryHackMe/README.md).
 
-План целиком и очередность шагов — в [roadmap.md](../../Certs/roadmap.md), здесь только живые цифры.
+Полный план и порядок шагов — в [roadmap.md](../../Certs/roadmap.md), здесь — результаты на дату снимка.
 
-## 0x100 :: Lab Notes
+## Заметки по лабораторным
 
-Разборы отдельных лаб, где был неочевидный ход или где ловился сам — в `labs/`:
+Разборы лабораторных с неочевидными решениями и моими ошибками — в `labs/`:
 
 - [`labs/`](./labs/)

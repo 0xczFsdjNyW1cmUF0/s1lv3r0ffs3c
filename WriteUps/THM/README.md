@@ -1,12 +1,12 @@
-# THM WriteUps
+# Разборы TryHackMe
 
-Разборы машин с TryHackMe. Здесь только то, где был неочевидный ход или где сам застрял.
+Разборы комнат TryHackMe. Здесь только то, где был неочевидный ход или где сам застрял.
 
-Список всех пройденных машин — в [`Certs/TryHackMe/rooms.md`](../../Certs/TryHackMe/rooms.md).
+Список всех пройденных комнат — в [`Certs/TryHackMe/rooms.md`](../../Certs/TryHackMe/rooms.md).
 
 ## Hard
 
-- [Squid Game](./squid-game.md) — пять макродоков: oledump, vipermonkey, XOR, шеллкод
+- [Squid Game](./squid-game.md) — пять документов с макросами: oledump, vipermonkey, XOR, шеллкод
 - [Management Wants a Word](./management-wants-a-word.md) — KAPE, NT-hash → DPAPI → Chrome → VeraCrypt, флаг в растрированном PDF
 - [Python Playground](./python-playground.md) — `__import__`, shared mount `/mnt/log`, SUID
 - [FAT32 Analysis](./fat32-analysis.md) — boot sector, E5-удаление, timestomping, slack space
@@ -19,13 +19,16 @@
 - [Cactus](./cactus.md) — CVE-2022-46169: auth bypass + command injection в Cacti + детект в Kibana
 - [0day](./0day.md) — Shellshock в CGI → kernel 3.13 (overlayfs)
 - [ret2libc](./ret2libc.md) — первая ROP-цепочка: `pop rdi; ret`, system("/bin/sh")
-- [Olympus](./olympus.md) — SQLi в старом CMS, SUID-бинарник, который сам приходит за пейлоадом
+- [Olympus](./olympus.md) — SQLi в старой CMS, SUID-бинарник, который сам приходит за пейлоадом
 - [NoScope: Finding RCE](./noscope-rce.md) — обход песочницы Rhino через `returnClass`, эксфильтрация через лог расширения
 - [Attacktive Directory](./attacktive-directory.md) — kerbrute → ASREPRoast → DCSync → pass-the-hash
-- [AD Certificate Templates](./ad-cert-templates.md) — ESC1: токсичный шаблон, сертификат живёт дольше пароля
+- [AD Certificate Templates](./ad-cert-templates.md) — ESC1: небезопасный шаблон, смена пароля не отзывает сертификат
 - [PrintNightmare](./printnightmare.md) — CVE-2021-1675: DLL через Print Spooler, детект и митигейшн
-- [LocalPotato](./localpotato.md) — CVE-2023-21746: своп NTLM-контекстов + StorSvc DLL-hijack
+- [LocalPotato](./localpotato.md) — CVE-2023-21746: подмена NTLM-контекстов + StorSvc DLL-hijack
 - [Breaking RSA](./breaking-rsa.md) — факторизация Ферма против близких простых
-- [W1seGuy](./w1seguy.md) — known plaintext против XOR с коротким ключом
 - [Insecure Deserialisation](./insecure-deserialisation.md) — pickle `__reduce__`, PHP magic methods, POP chains
-- [The Hollow Shell](./the-hollow-shell.md) — zip-slip + отравленный Jinja-кеш (Hacker Holidays 2026)
+- [The Hollow Shell](./the-hollow-shell.md) — Zip Slip и перезапись шаблона Jinja (Hacker Holidays 2026)
+
+## Easy
+
+- [W1seGuy](./w1seguy.md) — атака с известным открытым текстом на XOR с коротким ключом

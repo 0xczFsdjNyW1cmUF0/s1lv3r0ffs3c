@@ -2,17 +2,14 @@
 
 ![Terminal Header](./logo.png)
 
-Боевой оффсек-блокнот. Вернулся, чтобы сделать красиво.
+Личные заметки по пентесту: разборы лабораторных, шпаргалки, скрипты и материалы по обучению. Собираю здесь то, к чему возвращаюсь на практике, чтобы не искать заново.
 
-Это моя личная записная книжка для всего, что связано с оффсеком: рабочие материалы, утилиты, пейлоады, отчёты и всё, что может оказаться полезным.
-Не для понтов, а для практического применения. Если это кому то окажется полезным — отлично, если нет — тоже не беда.
-
-### Структура репозитория:
-- **CTF**: Сезоны ACLabs, разборы тасков и каталог публичных writeups. Просто на память о том, как закалялась сталь.
-- **Certs**: Дипломы, сертификаты, завершенные курсы. Исключительно по теме, ничего лишнего.
-- **Stuff**: Полезные материалы, скрипты и пейлоады, ссылки на ресурсы. Всегда под рукой.
-- **WriteUps**: Краткие отчёты по задачам и уязвимостям, просто чтобы не забыть.
-- **[_templates](_templates/writeup.md)**: Шаблоны заметок, чтобы writeup'ы выходили в одном формате.
+### Структура репозитория
+- [CTF](./CTF/README.md) — результаты сезонов ACLabs и конспекты публичных разборов со ссылками на авторов.
+- [Certs](./Certs/README.md) — пройденные курсы, дипломы и план сертификаций.
+- [Stuff](./Stuff/README.md) — шпаргалки, скрипты, payload’ы и ссылки на материалы.
+- [WriteUps](./WriteUps/README.md) — разборы комнат TryHackMe и лабораторных PortSwigger.
+- [_templates](_templates/writeup.md) — шаблон разбора.
 
 ### Карта заметок
 
@@ -22,8 +19,6 @@
 
 **WriteUps / PortSwigger** — [2fa-bruteforce-macro](./WriteUps/PortSwigger/labs/2fa-bruteforce-macro.md) · [file-upload-race-condition](./WriteUps/PortSwigger/labs/file-upload-race-condition.md) · [file-upload-rce](./WriteUps/PortSwigger/labs/file-upload-rce.md) · [partial-construction-race](./WriteUps/PortSwigger/labs/partial-construction-race.md) · [sqli-hidden-data](./WriteUps/PortSwigger/labs/sqli-hidden-data.md) · [sqli-login-bypass](./WriteUps/PortSwigger/labs/sqli-login-bypass.md) · [ssrf-blind-shellshock](./WriteUps/PortSwigger/labs/ssrf-blind-shellshock.md) · [ssrf-whitelist-bypass](./WriteUps/PortSwigger/labs/ssrf-whitelist-bypass.md)
 
-**Certs** — [всё обучение](./Certs/education.md) · [комнаты THM](./Certs/TryHackMe/rooms.md) · [roadmap](./Certs/roadmap.md) · **CTF** — [сезоны ACLabs](./CTF/README.md) · [таски](./CTF/tasks/) · [readings](./CTF/readings.md)
+**Certs** — [всё обучение](./Certs/education.md) · [комнаты THM](./Certs/TryHackMe/rooms.md) · [план сертификаций](./Certs/roadmap.md) · **CTF** — [сезоны ACLabs](./CTF/README.md) · [таски](./CTF/tasks/) · [публичные разборы](./CTF/readings.md)
 
-Минимум слов, максимум полезного контента. Хочешь обсудить или поделиться идеями — открой issue!
-
-**Примечание**: Эта страница активно обновляется. Буду рад сотрудничеству и обмену опытом.
+Если заметишь ошибку в команде или объяснении, открой issue с указанием файла.
